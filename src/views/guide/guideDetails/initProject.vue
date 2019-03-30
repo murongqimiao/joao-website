@@ -5,14 +5,14 @@
     <p v-highlight style="text-align: left">
       <pre>
       <code>
-        /** 首先要在私库中下载joao-cli **/
+        /** 首先要下载joao-cli **/
         cd到目标目录
         1.joao init
         2.请为项目命名 ->   输入要生成项目的名称
         3.请选择使用的模板w
           empty-backend-template  // 空白后台模板, vue + elementUI
-          whole-backend-template  // 完整后台模板的实例项目, cli使用的物料库存放在此项目中
-          empty-mobile-template  // 空白的移动端项目
+          whole-backend-template  // 完整后台模板的实例项目, cli使用的物料库存放在此项目中 (开源版目前没有)
+          empty-mobile-template  // 空白的移动端项目(开源版目前没有)
         4.等待下载完成
       </code>
       </pre>

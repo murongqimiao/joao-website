@@ -1,26 +1,9 @@
 <!--   空白组件模板 author by murongqimiao@live.cn  -->
 <template>
   <div class="downloadWay_content">
-    <p>出于安全性考虑,企业内容无法开源到npm公共库,因此发布在公司私库中</p>
+    <p>开源版的joao-cli可以在npm公共库中直接安装使用</p>
     <pre v-highlight>
       <code>
-        // 进入根目录
-
-          cd ~/
-
-        // 创建.npmrc 如果有请跳过
-
-          touch .npmrc
-
-        // 打开.npmrc
-
-          vim .npmrc
-
-        // 把私库信息复制进去
-       
-        // 保存即可生效
-
-          添加私库后 npm install会先走私库寻求资源
 
         // 安装joao cli
 

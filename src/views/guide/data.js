@@ -6,7 +6,7 @@ export const guideData = {
     name: '整体介绍',
     value: 'mainDes'
   }, {
-    name: '*从私库下载cli',
+    name: '安装joao-cli',
     value: 'downloadWay'
   }, {
     name: '项目初始化',

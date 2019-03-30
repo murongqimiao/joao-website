@@ -6,7 +6,7 @@
       <pre>
       <code>
         /** joao check 可以检测本地物料库资源 **/
-        /** JOAO update 可以更新本地物料库资源 **/
+        /** joao update 可以更新本地物料库资源 **/
         在项目根目录里
         1.joao add -c 目标组件名 (或者 joao add -c 组件A 组件B 组件C 一次安装多个组件)
         2.在src/components可以看到你添加的组件

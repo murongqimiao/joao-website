@@ -5,7 +5,7 @@
       <p v-highlight style="text-align: left">
         <pre>
         <code>
-          在 <a href="https://git.joao.net/fegroup/joao-management-tpl.git"> https://git.joao.net/fegroup/joao-management-tpl.git</a> 项目中,
+          在 <a href="https://github.com/murongqimiao/joao-website"> https://github.com/murongqimiao/joao-website</a> 项目中,
           上传自己的物料,在cli中update即可更新到本地.
           material/generate_components/文件下放置组件物料,
           material/generate_modules/文件夹下放置模块物料,
