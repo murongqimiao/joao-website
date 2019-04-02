@@ -15,7 +15,6 @@
 vue-x  打碎在src/views下, 由store.js自动注册
 
 
-##项目架构
 ------
 |src    主要文件    
 -----

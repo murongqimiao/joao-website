@@ -2,6 +2,7 @@
 <template>
   <div class="material">
     <Nav :active='1'/>
+    <!-- 图表 -->
     <div class="groups">
       <h2>{{ `图表  (${data.graph.length})` }}</h2>
       <div class="flex-box">
@@ -12,10 +13,22 @@
         </div>
       </div>
     </div>
+    <!-- 模块 -->
     <div class="groups">
       <h2>{{ `模块  (${data.modules.length})` }}</h2>
       <div class="flex-box">
         <div v-for="(item, i) in data.modules" :key="`group_${i}`" @click="choiceImg(item)">
+          <img :src="item.src" alt="">
+          <p class="name">{{ item.name }}</p>
+          <p class="des" @click.stop="jumpCode(item.code)">查看代码</p>
+        </div>
+      </div>
+    </div>
+    <!-- 其他 -->
+    <div class="groups">
+      <h2>{{ `其他  (${data.others.length})` }}</h2>
+      <div class="flex-box">
+        <div v-for="(item, i) in data.others" :key="`group_${i}`" @click="choiceImg(item)">
           <img :src="item.src" alt="">
           <p class="name">{{ item.name }}</p>
           <p class="des" @click.stop="jumpCode(item.code)">查看代码</p>

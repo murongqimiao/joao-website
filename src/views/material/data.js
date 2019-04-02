@@ -2,6 +2,7 @@
  * 这里放置json 数据撑起组件内容
  */
 export const materialData = {
+  // 图表
   graph: [{
     name: '折线图',
     src: require('@/assets/images/lineChart.png'),
@@ -24,6 +25,7 @@ export const materialData = {
     des: 'joao add -c RaddarChart',
     code: 'https://github.com/murongqimiao/joao-website/blob/master/material/generate_components/RaddarChart.vue'
   }],
+  // 模块
   modules: [{
     name: '搜索模块带表格',
     src: require('@/assets/images/searchTable.png'),
@@ -39,5 +41,7 @@ export const materialData = {
     src: require('@/assets/images/Layout.png'),
     des: 'joao add -c Layout',
     code: 'https://github.com/murongqimiao/joao-website/tree/master/material/generate_components/Layout'
-  }]
+  }],
+  // 其他
+  others: []
 }
