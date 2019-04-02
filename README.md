@@ -1,25 +1,21 @@
-#### 说明
+## 说明
       项目基于 vue cli 3.0 + TS + webpack4 + elementUI 打造
       webpack私有化属性配置见全局下 vue.config.js
 
-#### 安装依赖
+安装依赖 npm i
 
-npm i
+项目运行 npm run dev
 
-#### 项目运行
+内置axios封装  -> /api/http.js
 
-npm run dev
+组件放置 src/components下
 
-#### 内置axios封装  -> /api/http.js
+页面放置 src/views 一级路由自动注册
 
-#### 组件放置 src/components下
-
-#### 页面放置 src/router下 一级路由自动注册
-
-#### vue-x  打碎在src/router下, 由store.js自动注册
+vue-x  打碎在src/views下, 由store.js自动注册
 
 
-#####项目架构
+##项目架构
 ------
 |src    主要文件    
 -----
@@ -56,4 +52,3 @@ npm run dev
 
 |----- and so on...
 
-###### 执行 npm run dev  其他的自己看package吧
