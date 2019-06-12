@@ -3,8 +3,8 @@
  */
 
 import Route from 'model/route'
-import material from './material'
+import materials from './materials'
 
 export default [
-  Route.new('/material', material, 'material'),
+  Route.new('/materials', materials, 'materials'),
 ]

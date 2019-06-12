@@ -25,7 +25,7 @@ export default {
         name: '物料',
         imgSrc: require('../assets/images/undraw_product_teardown_elol.svg'),
         buttonName: '查看详情',
-        cbUrl: '/material',
+        cbUrl: '/materials',
         textContent: '体验模块与组件,即查即用,一键搞定'
       }, {
         name: '规范',
