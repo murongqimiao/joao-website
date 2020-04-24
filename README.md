@@ -1,4 +1,7 @@
 与joao-cli配套的物料仓储   node version  8.4.0
+
+[homePage](http://39.106.169.7:8080/)
+
 ===================
 ![images](https://img.shields.io/badge/elementUI-2.0+-blue.svg)
 ![images](https://img.shields.io/badge/vue~cli-3.0+-blue.svg)
