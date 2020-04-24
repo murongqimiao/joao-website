@@ -1,4 +1,4 @@
-与joao-cli配套的物料仓储
+与joao-cli配套的物料仓储   node version  8.4.0
 ===================
 ![images](https://img.shields.io/badge/elementUI-2.0+-blue.svg)
 ![images](https://img.shields.io/badge/vue~cli-3.0+-blue.svg)
@@ -6,6 +6,8 @@
 ![images](https://img.shields.io/badge/webpack-4.0+-blue.svg)
 ![images](https://img.shields.io/badge/build-passing-green.svg)
 
+### future
+      最近会更新一批组件, 对应hackerlink官网项目
 
 ### joao-cli 运行
 ```
@@ -142,3 +144,6 @@
 ### 沟通联系
 `前端工程化实践群793841737`
 或者issue 一步到位
+
+
+
